@@ -32,6 +32,7 @@ function TodoList() {
 
   return (
     <div className="container">
+    <h1>Todo List</h1>
       <input
         type="text"
         value={text}
