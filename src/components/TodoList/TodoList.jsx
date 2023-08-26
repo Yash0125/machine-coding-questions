@@ -53,12 +53,13 @@ function TodoList() {
               ) : (
                 item
               )}
-              <button onClick={() => deleteTodo(index)}>delete</button>
+              
               {editIndex === index ? (
                 <button onClick={() => saveTodo()}>save</button>
               ) : (
                 <>
                   <button onClick={() => editTodo(index)}>edit</button>
+                  <button onClick={() => deleteTodo(index)}>delete</button>
                 </>
               )}
             </li>
