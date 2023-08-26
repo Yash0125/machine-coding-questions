@@ -31,7 +31,7 @@ function TodoList() {
   };
 
   return (
-    <div>
+    <div className="container">
       <input
         type="text"
         value={text}
