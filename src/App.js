@@ -6,6 +6,7 @@ import ApiSort from "./components/apiSort/ApiSort";
 import Carousel from "./components/carousel/Carousel";
 import Cart from "./components/cart/Cart";
 import DebounceExample from "./components/debounceExample/DebounceExample";
+import Search from "./components/search/Search";
 import StarRating from "./components/starRating/StarRating";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Cart/>
       <Timer/>
       <ApiSort/>
+      <Search/>
     </div>
   );
 }
