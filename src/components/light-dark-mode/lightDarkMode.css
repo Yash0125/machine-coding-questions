@@ -1,0 +1,35 @@
+.lightDarkMode-header{
+    color: rgb(19, 109, 79);
+}
+
+.light{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dark{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toggle-btn{
+    color: black;
+    background-color: burlywood;
+    height: 50px;
+    font-size: medium;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
