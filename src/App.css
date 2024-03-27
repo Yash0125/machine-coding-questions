@@ -7,3 +7,13 @@
   padding: 20px;
   border: 1px solid black;
 }
+
+.star {
+  font-size: 2rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.filled {
+  color: gold;
+}

@@ -1,4 +1,5 @@
 import "./App.css";
+import GridLights from "./components/GridLights/GridLights";
 import Timer from "./components/Timer/Timer";
 import TodoList from "./components/TodoList/TodoList";
 import Accordion from "./components/accordion/Accordion";
@@ -23,6 +24,7 @@ function App() {
       <ApiSort/>
       <Search/>
       <LightDarkMode/>
+      <GridLights/>
     </div>
   );
 }
