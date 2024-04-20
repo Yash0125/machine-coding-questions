@@ -1,4 +1,5 @@
 import "./App.css";
+import DynamicForm from "./components/DynamicForm/DynamicForm";
 import GridLights from "./components/GridLights/GridLights";
 import Timer from "./components/Timer/Timer";
 import TodoList from "./components/TodoList/TodoList";
@@ -25,6 +26,7 @@ function App() {
       <Search/>
       <LightDarkMode/>
       <GridLights/>
+      <DynamicForm/>
     </div>
   );
 }
