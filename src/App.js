@@ -1,8 +1,10 @@
 import "./App.css";
+import Autosuggestion from "./components/Autosuggestion/Autosuggestion";
 import DynamicForm from "./components/DynamicForm/DynamicForm";
 import FileExplorer from "./components/FileExplorer/FileExplorer";
 import GridLights from "./components/GridLights/GridLights";
 import Timer from "./components/Timer/Timer";
+import Toast from "./components/Toast/Toast";
 import TodoList from "./components/TodoList/TodoList";
 import Accordion from "./components/accordion/Accordion";
 import ApiSort from "./components/apiSort/ApiSort";
@@ -29,6 +31,8 @@ function App() {
       <GridLights/>
       <DynamicForm/>
       <FileExplorer/>
+      <Autosuggestion/>
+      <Toast/>
     </div>
   );
 }
